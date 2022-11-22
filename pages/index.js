@@ -1,7 +1,7 @@
-import SnowflakeApp from '../components/SnowflakeApp'
-import DeprecationNotice from '../components/DeprecationNotice'
+import SnowflakeApp from "../components/SnowflakeApp";
 
-export default () => <div>
-  <DeprecationNotice />
-  <SnowflakeApp />
-</div>
+export default () => (
+  <div>
+    <SnowflakeApp />
+  </div>
+);
